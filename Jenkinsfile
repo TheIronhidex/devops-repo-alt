@@ -13,7 +13,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("theironhidex/hello-world")
+        app = docker.build("theironhidex/hello-world-alt")
     }
 
     stage('Test image') {
